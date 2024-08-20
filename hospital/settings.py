@@ -26,7 +26,7 @@ SECRET_KEY = 'j-erj2ub*bp^$e!7o7fd33#01n-z43bs-ttpwfs6)vn-hofba7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django-app-hospital.vercel.app']
 
 
 # Application definition
