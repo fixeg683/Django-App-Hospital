@@ -25,3 +25,5 @@ urlpatterns = [
     path("", include('appointment.urls', namespace="appointment")),
     # ... the rest of your URLconf goes here ...
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+urlpatterns += staticfiles_urlpatterns()
